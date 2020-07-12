@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Modal</title>
+    <link rel="stylesheet" href="style2.css"/>
+</head>
+<body>
+    <!-- <button id="modalBtn" class="button">Click Here</button> -->
+    <div id="image-grid">
+        <button class="superhero-btn" id="amazo"><img id="amazo" src="./images/amazo.png" alt="Amazo" /></button>
+        <button class="superhero-btn" id="batman"><img id="batman" src="./images/batman.png" alt="Batman" /></button>
+        <button class="superhero-btn" id="ant_man"><img id="ant_man" src="./images/ant_man.png" alt="Ant Man" /></button>
+        <button class="superhero-btn" id="black_panther"><img id="black_panther" src="./images/black_panther.png" alt="Black Panther" /></button>
+        <button class="superhero-btn" id="captain_america"><img id="captain_america" src="./images/captain_america.png" alt="Captain America" /></button>
+        <button class="superhero-btn" id="atom"><img id="atom" src="./images/atom.png" alt="Atom" /></button>
+        <button class="superhero-btn" id="wonder_woman"><img id="wonder_woman" src="./images/wonder_woman.png" alt="Wonder Woman" /></button>
+        <button class="superhero-btn" id="spider_man"><img id="spider_man" src="./images/spider_man.png" alt="Spider Man" /></button>
+        <button class="superhero-btn" id="superman"><img id="superman" src="./images/superman.png" alt="Superman" /></button>
+    </div>
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2 id="name"></h2>
+            </div>
+            <div class="modal-body">
+                <h4 id="full-name"></h4>
+                <div id="stats" style="list-style-type:none;"></div>
+            </div>
+            <div class="modal-footer">
+                <h3 id="affiliations"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
